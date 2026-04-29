@@ -216,3 +216,27 @@ __marimo__/
 
 # Streamlit
 .streamlit/secrets.toml
+
+# ============================================
+# JobHunter — Project-specific ignores
+# ============================================
+
+# Credentials (service account keys, OAuth tokens)
+credentials/
+sheets_credentials.json
+gmail_credentials.json
+token.json
+
+# SQLite database
+*.db
+*.db-journal
+
+# Tailored resume output
+data/resume_versions/
+
+# Logs
+*.log
+error.log
+
+# Gemini / misc
+.gemini/
